@@ -56,7 +56,7 @@ export function Vitrine() {
             onClick={() => window.location.reload()}
             className="px-4 py-2 bg-black text-white rounded-lg"
           >
-            Tentar novamente
+            Tentar novamente, por favor
           </button>
         </div>
       </div>

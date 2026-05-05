@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Vitrine } from "./components/Vitrine";
+import { Vitrine } from "./Components/Vitrine";
 
 
 function App() {
   return (
     <div>
+      <h1>Editado pelo Prof. Horizonte Junior</h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Vitrine/>} />
