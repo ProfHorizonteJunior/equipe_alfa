@@ -5,7 +5,7 @@ import { Vitrine } from "./Components/Vitrine";
 function App() {
   return (
     <div>
-      <h1>Editado pelo Prof. Horizonte Junior</h1>
+      <h1>Editado pelo Prof.</h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Vitrine/>} />
