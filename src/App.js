@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Vitrine } from "./components/Vitrine";
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Vitrine/>} />
         </Routes>
       </BrowserRouter>
     </div>
