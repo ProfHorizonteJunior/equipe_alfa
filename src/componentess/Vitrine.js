@@ -11,7 +11,7 @@ export function Vitrine() {
     const buscarProdutos = async () => {
       try {
         setCarregando(true);
-        const resposta = await fetch('https://dummyjson.com/products?limit=30');
+        const resposta = await fetch(`${process.env.REACT_APP_API_URL}`);
         if (!resposta.ok) throw new Error('Erro ao carregar os produtos');
         const dados = await resposta.json();
         setProdutos(dados.products);

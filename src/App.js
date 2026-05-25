@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Vitrine } from "./Components/Vitrine";
+import { Vitrine } from "./componentess/Vitrine";
 
 
 function App() {
